@@ -31,7 +31,7 @@ function createCircle(e, t) {
     var a = {};
     return a.x = e,
     a.y = t,
-    a.color = "#ffedd2",
+    a.color = "#ddc8ad",
     a.radius = .1,
     a.alpha = .5,
     a.lineWidth = 6,
@@ -89,7 +89,7 @@ function debounce(fn, delay) {
     clearTimeout(timer)
     timer = setTimeout(function () {
       fn.apply(context, args)
-    }, 0)
+    }, delay)
   }
 }
 
@@ -100,7 +100,7 @@ if (canvasEl) {
       , pointerX = 0
       , pointerY = 0
       , tap = "mousedown"
-      , colors = ["#006d77", "#83c5be", "#d8ac8f", "#ffbc9f"]
+      , colors = ["#648c8f", "#06afb0", "#9cc5b9", "#4d6574"]
       , setCanvasSize = debounce(function() {
         canvasEl.width = 2 * window.innerWidth,
         canvasEl.height = 2 * window.innerHeight,

@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>【已解决】Cloudflare代理Vercel托管的网站重定向次数过多</title>
+    <link href="/2023/09/30/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Cloudflare%E4%BB%A3%E7%90%86Vercel%E6%89%98%E7%AE%A1%E7%9A%84%E7%BD%91%E7%AB%99%E9%87%8D%E5%AE%9A%E5%90%91%E6%AC%A1%E6%95%B0%E8%BF%87%E5%A4%9A/"/>
+    <url>/2023/09/30/%E3%80%90%E5%B7%B2%E8%A7%A3%E5%86%B3%E3%80%91Cloudflare%E4%BB%A3%E7%90%86Vercel%E6%89%98%E7%AE%A1%E7%9A%84%E7%BD%91%E7%AB%99%E9%87%8D%E5%AE%9A%E5%90%91%E6%AC%A1%E6%95%B0%E8%BF%87%E5%A4%9A/</url>
+    
+    <content type="html"><![CDATA[<h1 id="【已解决】Cloudflare代理Vercel托管的网站重定向次数过多"><a href="#【已解决】Cloudflare代理Vercel托管的网站重定向次数过多" class="headerlink" title="【已解决】Cloudflare代理Vercel托管的网站重定向次数过多"></a>【已解决】Cloudflare代理Vercel托管的网站重定向次数过多</h1><h2 id="引入"><a href="#引入" class="headerlink" title="引入"></a>引入</h2><p>前几天将域名的name server更改到Cloudflare，Cloudflare自动代理了域名下的网站，不久后邮件提醒网站已下线，显示 <strong>重定向次数过多</strong></p><p>出现这个问题的原因是：<br>Cloudflare在回源的过程中请求Vercel的服务器，Vercel的服务器自动启用了https，而Cloudflare默认的加密方式是http，这就导致https与http重定向时乱跳。</p><h2 id="解决方法-一"><a href="#解决方法-一" class="headerlink" title="解决方法 一"></a>解决方法 一</h2><p>不使用Cloudflare代理</p><p>打开 DNS-记录<br>找到如图所示的 代理状态<br>将按钮拨到关闭状态即可<br><img src="/img/posts/2023093002.webp" alt="这是图片" title="DNS记录"></p><h2 id="解决方法-二"><a href="#解决方法-二" class="headerlink" title="解决方法 二"></a>解决方法 二</h2><p>让Cloudflare以https的方式回源</p><p>打开 SSL&#x2F;TLS-概述<br>找到如图所示的 SSL&#x2F;TLS 加密模式<br>将其改为 完全 或 完全（严格）<br><img src="/img/posts/2023093001.webp" alt="这是图片" title="DNS记录"></p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>服务器</tag>
+      
+      <tag>网络</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>两个网易云音乐api</title>
     <link href="/2023/08/06/%E4%B8%A4%E4%B8%AA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90api/"/>
     <url>/2023/08/06/%E4%B8%A4%E4%B8%AA%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90api/</url>
@@ -317,9 +338,9 @@
       
       <tag>服务器</tag>
       
-      <tag>Terraria</tag>
-      
       <tag>网络</tag>
+      
+      <tag>Terraria</tag>
       
       <tag>软件推荐</tag>
       
