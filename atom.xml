@@ -289,9 +289,9 @@
     
     
     
-    <category term="Arch" scheme="https://g-haoyu.top/tags/Arch/"/>
-    
     <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
+    
+    <category term="Arch" scheme="https://g-haoyu.top/tags/Arch/"/>
     
   </entry>
   
@@ -336,9 +336,9 @@
     
     
     
-    <category term="Windows" scheme="https://g-haoyu.top/tags/Windows/"/>
-    
     <category term="Ubuntu" scheme="https://g-haoyu.top/tags/Ubuntu/"/>
+    
+    <category term="Windows" scheme="https://g-haoyu.top/tags/Windows/"/>
     
   </entry>
   
@@ -384,11 +384,11 @@
     
     
     
-    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
-    
     <category term="Ubuntu" scheme="https://g-haoyu.top/tags/Ubuntu/"/>
     
     <category term="腾讯会议" scheme="https://g-haoyu.top/tags/%E8%85%BE%E8%AE%AF%E4%BC%9A%E8%AE%AE/"/>
+    
+    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
     
   </entry>
   
@@ -436,9 +436,9 @@
     
     <category term="服务器" scheme="https://g-haoyu.top/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     
-    <category term="Terraria" scheme="https://g-haoyu.top/tags/Terraria/"/>
-    
     <category term="网络" scheme="https://g-haoyu.top/tags/%E7%BD%91%E7%BB%9C/"/>
+    
+    <category term="Terraria" scheme="https://g-haoyu.top/tags/Terraria/"/>
     
     <category term="软件推荐" scheme="https://g-haoyu.top/tags/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
     

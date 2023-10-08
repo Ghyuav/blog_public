@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3865587 */
-  src: url('/iconfont/iconfont.woff2?t=1673867095792') format('woff2'),
-       url('/iconfont/iconfont.woff?t=1673867095792') format('woff'),
-       url('/iconfont/iconfont.ttf?t=1673867095792') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.woff2?t=1696764814975') format('woff2'),
+       url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.woff?t=1696764814975') format('woff'),
+       url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.ttf?t=1696764814975') format('truetype');
 }
 @font-face {
   font-family: "zxfxyt";
@@ -19,6 +19,10 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tansuo:before {
+  content: "\e621";
 }
 
 .icon-md-train:before {
