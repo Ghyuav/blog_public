@@ -6,7 +6,7 @@
   <link href="https://g-haoyu.top/atom.xml" rel="self"/>
   
   <link href="https://g-haoyu.top/"/>
-  <updated>2023-10-15T12:09:11.355Z</updated>
+  <updated>2023-11-25T08:34:30.445Z</updated>
   <id>https://g-haoyu.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>23/11/25音乐推荐</title>
+    <link href="https://g-haoyu.top/2023/11/24/23-11-25%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/"/>
+    <id>https://g-haoyu.top/2023/11/24/23-11-25%E9%9F%B3%E4%B9%90%E6%8E%A8%E8%8D%90/</id>
+    <published>2023-11-24T12:02:22.000Z</published>
+    <updated>2023-11-25T08:34:30.445Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" href="/css/aplayer.css"><div id="aplayer"></div><script src="https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script><script src="/js/aplayer/231125.js"></script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/aplayer.css&quot;&gt;
+&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;
+&lt;script src=&quot;https://cdn.bootcdn.net/ajax/libs/aplayer/1.10.1/APlay</summary>
+      
+    
+    
+    
+    
+    <category term="音乐" scheme="https://g-haoyu.top/tags/%E9%9F%B3%E4%B9%90/"/>
+    
+  </entry>
   
   <entry>
     <title>抹茶蛋糕制作教程</title>
@@ -289,9 +313,9 @@
     
     
     
-    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
-    
     <category term="Arch" scheme="https://g-haoyu.top/tags/Arch/"/>
+    
+    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
     
   </entry>
   
@@ -384,11 +408,11 @@
     
     
     
+    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
+    
     <category term="Ubuntu" scheme="https://g-haoyu.top/tags/Ubuntu/"/>
     
     <category term="腾讯会议" scheme="https://g-haoyu.top/tags/%E8%85%BE%E8%AE%AF%E4%BC%9A%E8%AE%AE/"/>
-    
-    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
     
   </entry>
   
