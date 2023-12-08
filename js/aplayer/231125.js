@@ -2,11 +2,11 @@
 
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    showlrc: false,
+    showlrc: true,
     fixed: false,
     mini: false,
     lrcType: 3,
-    theme: '#181c27',
+    theme: '#556f6e',
     audio: [
         {
             name: '夜に浮かぶ',
