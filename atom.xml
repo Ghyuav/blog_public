@@ -337,9 +337,9 @@
     
     
     
-    <category term="Arch" scheme="https://g-haoyu.top/tags/Arch/"/>
-    
     <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
+    
+    <category term="Arch" scheme="https://g-haoyu.top/tags/Arch/"/>
     
   </entry>
   
@@ -432,11 +432,11 @@
     
     
     
-    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
-    
     <category term="Ubuntu" scheme="https://g-haoyu.top/tags/Ubuntu/"/>
     
     <category term="腾讯会议" scheme="https://g-haoyu.top/tags/%E8%85%BE%E8%AE%AF%E4%BC%9A%E8%AE%AE/"/>
+    
+    <category term="linux" scheme="https://g-haoyu.top/tags/linux/"/>
     
   </entry>
   
