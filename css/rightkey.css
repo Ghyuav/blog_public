@@ -9,7 +9,7 @@
     font-size:13px!important;
     width:130px;
     -moz-box-shadow:1px 1px 3px rgba(0,0,0,.3);
-    box-shadow:0px 0px 15px #333;
+    box-shadow:0px 0px 15px var(--text-color);
     position:absolute;
     display:none;
     z-index:10000;
@@ -26,7 +26,7 @@
     margin:0px;padding:0px;line-height:35px;
   }
   div.usercm ul li a{
-    color:#666;padding:0 15px;display:block
+    color:var(--text-color);padding:0 15px;display:block
   }
   div.usercm ul li a:hover{
     color:#fff;background:#73c9e5;border-radius: 5px
@@ -41,5 +41,5 @@
     background-color:rgba(255,11,11,0)!important
   }
   div.usercm{
-    background:#fff !important;
+    background:var(--board-bg-color) !important;
   }
