@@ -14,7 +14,7 @@
     display:none;
     z-index:10000;
     opacity:0.9;
-    border-radius: 5px;
+    border-radius: 10px;
   }
   div.usercm ul{
     list-style-type:none;
@@ -26,7 +26,7 @@
     margin:0px;padding:0px;line-height:35px;
   }
   div.usercm ul li a{
-    color:var(--text-color);padding:0 15px;display:block
+    color:var(--text-color);padding:0 15px;display:block;border-radius: 5px
   }
   div.usercm ul li a:hover{
     color:#fff;background:#73c9e5;border-radius: 5px
@@ -41,5 +41,18 @@
     background-color:rgba(255,11,11,0)!important
   }
   div.usercm{
-    background:var(--board-bg-color) !important;
+    animation:myfirst 0.2s;
+    animation-fill-mode:forwards;
+    animation-timing-function:ease;
+  }
+  @keyframes myfirst
+  {
+    from {background:rgba(255, 0, 0, 0);}
+    to {background:var(--board-bg-color);}
+  }
+  
+  @-webkit-keyframes myfirst /* Safari and Chrome */
+  {
+    from {background:rgba(255, 0, 0, 0);}
+    to {background:var(--board-bg-color);}
   }
