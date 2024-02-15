@@ -1,0 +1,40 @@
+
+.player_card {
+    background-color: grey;
+    position: relative;
+    margin: 25px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+.player_card:hover {
+    transform:rotate(-0.5deg);
+    filter: brightness(90%);
+}
+.info {
+    margin: 20;
+    justify-content: center;
+}
+.title{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 20px;
+}
+.artist{
+    color: lightgrey;
+    position: absolute;
+    line-height: 150%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 20px;
+}
+.control {
+    position: absolute;
+    right: 5%;
+    transform: translate(0, 100%);
+}
+.control:hover {
+    filter: brightness(80%);
+}
