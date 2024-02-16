@@ -8,7 +8,6 @@
     border-radius: 10px;
 }
 .player_card:hover {
-    transform:rotate(-0.5deg);
     filter: brightness(90%);
 }
 .info {
