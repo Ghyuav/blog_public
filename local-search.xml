@@ -147,7 +147,7 @@
     <link href="/2023/05/08/%E9%9A%8F%E6%89%8B%E6%8B%8D%E7%85%A7/"/>
     <url>/2023/05/08/%E9%9A%8F%E6%89%8B%E6%8B%8D%E7%85%A7/</url>
     
-    <content type="html"><![CDATA[<h1 id="直奔主题"><a href="#直奔主题" class="headerlink" title="直奔主题"></a>直奔主题</h1><p>花终于开了，去公园拍些照片吧</p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/photos/DSC00056.jpg" alt="这是图片" title="鲜艳的小花"></div><div class="group-image-wrap"><img src="/img/photos/DSC00048.jpg" alt="这是图片" title="长小苔藓（MOSS？）的地砖"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="/img/photos/DSC00043.jpg" alt="这是图片" title="池塘"></div></div></div><p>就这些拿得出手，凑合看吧😊</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="直奔主题"><a href="#直奔主题" class="headerlink" title="直奔主题"></a>直奔主题</h1><p>花终于开了，去公园拍些照片吧</p><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="/img/photos/DSC00056.jpg" alt="这是图片" title="鲜艳的小花"></div><div class="group-image-wrap"><img src="/img/photos/DSC00048.jpg" alt="这是图片" title="长苔藓的地砖"></div></div><div class="group-image-row"><div class="group-image-wrap"><img src="/img/photos/DSC00043.jpg" alt="这是图片" title="池塘"></div></div></div><p>就这些拿得出手，凑合看吧😊</p>]]></content>
     
     
     
@@ -173,25 +173,6 @@
     <tags>
       
       <tag>日常</tag>
-      
-    </tags>
-    
-  </entry>
-  
-  
-  
-  <entry>
-    <title>小白安装obs有多难？</title>
-    <link href="/2023/03/05/%E5%B0%8F%E7%99%BD%E5%AE%89%E8%A3%85obs%E6%9C%89%E5%A4%9A%E9%9A%BE%EF%BC%9F/"/>
-    <url>/2023/03/05/%E5%B0%8F%E7%99%BD%E5%AE%89%E8%A3%85obs%E6%9C%89%E5%A4%9A%E9%9A%BE%EF%BC%9F/</url>
-    
-    <content type="html"><![CDATA[<p>这篇文章，我将扮演一个电脑小白体验下载并安装obs。</p><p>带有 “*” 字样的为作者吐槽</p><div class="note note-danger">            <p>！！注意！！<br><font size=6>这不是教程，这不是教程，这不是教程！</font><br>不要按照以下方法安装obs，否则吃大亏别赖我！<br>真正的obs官网在<font size=5><a href="https://obsproject.com/">这里</a>!</font></p>          </div><h1 id="情境"><a href="#情境" class="headerlink" title="情境"></a>情境</h1><p>我是一个电脑小白，</p><p>我想下载一个用来直播推流和录屏的软件，</p><p>我听说obs这款软件很全能，</p><p>我打算在我的电脑上试试。</p><h1 id="下载软件"><a href="#下载软件" class="headerlink" title="下载软件"></a>下载软件</h1><p>我打开了全球最大的中文搜索引擎——百度搜索，<br><font color='grey' size=2>*<em>全是广告</em></font><br>在输入框中填入了“obs录屏软件下载”<br><font color='grey' size=2>*<em>错误的关键字</em></font><br>搜索引擎给了我如下的内容。<br><img src="/img/posts/2023030301.webp" alt="img" title="img"><br><font color='grey' size=2>*<em>放眼望去，所有能看见的条目都不是真正的obs官网</em></font><br>我点击了最炸眼，最醒目的一条“obs<font color='red'>免费版</font>-obs studio直播录屏<font color='red'>中文版</font>下载-<font color='red'>一键安装</font>”</p><p>我进入了obs官网，点击了“立即下载”按钮，并打开了安装包<br><img src="/img/posts/2023030302.webp" alt="img" title="img"></p><p><font color='grey' size=2>*<em>域名一眼假</em></font></p><h1 id="下载软件-1"><a href="#下载软件-1" class="headerlink" title="下载软件"></a>下载软件</h1><p>我点击了“立即安装”<br><img src="/img/posts/2023030303.webp" alt="img" title="img"><br><font color='grey' size=2>*<em>欸，介是嘛呀</em></font></p><p>就这样，我付了48软妹币，开始安装<br><img src="/img/posts/2023030501.webp" alt="img" title="img"></p><p><font color='grey' size=2>*<em>亏大发了啊！</em></font><br>……</p><h1 id="最后总结"><a href="#最后总结" class="headerlink" title="最后总结"></a>最后总结</h1><p>这是我朋友的亲身经历，花了48软妹币，肠子都悔青了。</p><p>obs是<font color='grey' size=2><del>自由</del></font>免费的，一切收费的obs都是假的。</p><p>别想靠换搜索引擎来解决广告问题，国内主流搜索引擎都有这个问题（除非你能用谷歌）</p><p>最好的方法是安装一个广告屏蔽插件。</p><p>如果有能力，尽量学习辨别广告，在广告堆里找到官网。</p><p>这些都是假的<br><img src="/img/posts/2023030502.webp" alt="img" title="img"></p><p>真正的obs官网<a href="https://obsproject.com/">在这里</a><br><img src="/img/posts/2023030503.webp" alt="img" title="img"></p>]]></content>
-    
-    
-    
-    <tags>
-      
-      <tag>网站</tag>
       
     </tags>
     
@@ -288,9 +269,9 @@
     
     <tags>
       
-      <tag>linux</tag>
-      
       <tag>Arch</tag>
+      
+      <tag>linux</tag>
       
     </tags>
     
@@ -370,11 +351,11 @@
     
     <tags>
       
+      <tag>linux</tag>
+      
       <tag>Ubuntu</tag>
       
       <tag>腾讯会议</tag>
-      
-      <tag>linux</tag>
       
     </tags>
     
@@ -387,7 +368,7 @@
     <link href="/2023/01/10/%E6%9C%A8%E9%B1%BC-%E4%BF%AE%E8%BA%AB%E5%85%BB%E6%80%A7/"/>
     <url>/2023/01/10/%E6%9C%A8%E9%B1%BC-%E4%BF%AE%E8%BA%AB%E5%85%BB%E6%80%A7/</url>
     
-    <content type="html"><![CDATA[<h2 id="敲木鱼"><a href="#敲木鱼" class="headerlink" title="敲木鱼"></a>敲木鱼</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><blockquote><p>木鱼是一种法器，多用于佛教、道教的功课与法会。相传鱼昼夜不合目，故刻木像鱼形，击之以警戒僧众应昼夜思道。形制有二：一为挺直鱼形，用来粥饭或集众、警众，悬挂在寺院走廊上。二为圆状鱼形，诵经时所用，放在案上。明、清以来，民间音乐和潮剧、粤剧中常用到木鱼。使木鱼除法器外兼具乐器功能。<br>这是一个电子木鱼</p></blockquote><h3 id="来敲电子木鱼！"><a href="#来敲电子木鱼！" class="headerlink" title="来敲电子木鱼！"></a>来敲电子木鱼！</h3><p>点击黑圆以开始<br><a href="/html/muyu.html">全屏纯享</a></p><iframe src="/html/muyu.html" width=100% height="500" frameborder="0"></iframe>]]></content>
+    <content type="html"><![CDATA[<h2 id="敲木鱼"><a href="#敲木鱼" class="headerlink" title="敲木鱼"></a>敲木鱼</h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><blockquote><p>木鱼是一种法器，多用于佛教、道教的功课与法会。相传鱼昼夜不合目，故刻木像鱼形，击之以警戒僧众应昼夜思道。形制有二：一为挺直鱼形，用来粥饭或集众、警众，悬挂在寺院走廊上。二为圆状鱼形，诵经时所用，放在案上。明、清以来，民间音乐和潮剧、粤剧中常用到木鱼。使木鱼除法器外兼具乐器功能。<br>这是一个电子木鱼</p></blockquote><h3 id="来敲电子木鱼！"><a href="#来敲电子木鱼！" class="headerlink" title="来敲电子木鱼！"></a>来敲电子木鱼！</h3><p>点击黑圆以开始<br><a href="/html/muyuv2.html">全屏纯享</a></p><iframe src="/html/muyu.html" width=100% height="500" frameborder="0"></iframe>]]></content>
     
     
     
