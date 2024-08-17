@@ -6,7 +6,7 @@
 }
 @font-face {
   font-family: "zxfxyt";
-  src: url('/font/zxfxyt.ttf') format('truetype');
+  src: url('https://frp-boy.top:18080/file/zxfxyt.ttf') format('truetype');
 }
 
 .container {
