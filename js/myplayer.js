@@ -1,4 +1,5 @@
-
+ 
+var x = document.getElementById("myaudio");
 
 // random music
 function random_music() {
@@ -19,17 +20,22 @@ fetch('https://api.g-haoyu.top/randommusic')
      let musicObject =music_data;
      document.getElementById('music_player_img_bg').src=musicObject.pic
      document.getElementById('music_player_img').src=musicObject.pic
-     document.getElementById('myaudio').src=musicObject.url
      document.getElementById('music_player_title').innerHTML=musicObject.name
      document.getElementById('music_player_artist').innerHTML=musicObject.artist
+     x.src=musicObject.url
+     x.play();
+     if (document.startViewTransition) { 
+       document.startViewTransition(() => { document.getElementById("control").src = "img/player/pause.png"});
+     } else {
+       document.getElementById("control").src = "img/player/pause.png"
+     }
  })
 .catch(error => {
      // 处理请求过程中出现的错误
      console.error('Fetch error:', error);
  });
 }
- 
-var x = document.getElementById("myaudio");
+
 
 function playPause() {
   if (x.paused) {
