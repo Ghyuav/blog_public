@@ -175,14 +175,6 @@
                   
                   
                   
-                  <a class="dropdown-item" href="/html/clock.html">
-                    
-                    <span>时钟</span>
-                  </a>
-                
-                  
-                  
-                  
                   <a class="dropdown-item" href="/html/muyuv2.html">
                     
                     <span>木鱼</span>
@@ -313,14 +305,15 @@
 
 
   <div class="player_card" onclick="playPause()">
-    <audio id="myaudio" src=https://music.163.com/song/media/outer/url?id=1874356963.mp3></audio>
-    <img style="filter: blur(60px);position: absolute;width: 100%;height: 90px;" src=http://p2.music.126.net/232CCnSja4AllpLozuBxYA==/109951166340958754.jpg?param=100y100 alt=""/>
-    <img style="border-radius: 10px;z-index: 1" src=http://p2.music.126.net/232CCnSja4AllpLozuBxYA==/109951166340958754.jpg?param=100y100 alt="" />
+    <audio id="myaudio" src=""></audio>
+    <img style="filter: blur(60px);position: absolute;width: 100%;height: 90px;" id="music_player_img_bg" src="" srcset="/img/loading.gif" lazyload />
+    <img style="border-radius: 10px;z-index: 1" id="music_player_img" src="" srcset="/img/loading.gif" lazyload  />
     <div class="info">
-        <p class="title">Zurkhen Helbert Boroo</p>
-        <p class="artist">The GALTMAH</p>
+        <p class="title" id="music_player_title"></p>
+        <p class="artist" id="music_player_artist"></p>
+        <img onclick=random_music() src="/img/player/refresh.png" srcset="/img/loading.gif" lazyload width="32" alt="refresh music"> 
     </div>
-    <img id="control" class="control" src="/img/player/play.png" srcset="/img/loading.gif" lazyload width="32" alt="">
+    <img id="control" class="control" src="/img/player/play.png" srcset="/img/loading.gif" lazyload width="32" alt="pause/play">
 </div>
 
 
@@ -580,7 +573,7 @@
     <div class="footer-content">
       
 <!--右下角躲猫猫--> <!--<div id="maomao" onMouseOut="duoMaomao()"></div>-->
-<p><i class="iconfont icon-copyright"></i> 2024 Haoyu</p>
+<p><i class="iconfont icon-copyright"></i> 2025 Haoyu</p>
 
 <!--鼠标点击爆炸五颜六色特效-->  <canvas class="fireworks" style="position:fixed;left:0;top:0;z-index:10;pointer-events:none;">  </canvas> 
     </div>

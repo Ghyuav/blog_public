@@ -1,8 +1,6 @@
 @font-face {
-  font-family: "iconfont"; /* Project id 3865587 */
-  src: url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.woff2?t=1696764814975') format('woff2'),
-       url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.woff?t=1696764814975') format('woff'),
-       url('//at.alicdn.com/t/c/font_3865587_ie453twj9o.ttf?t=1696764814975') format('truetype');
+  font-family: 'iconfont';  /* Project id 3865587 */
+  src: url('//at.alicdn.com/t/c/font_3865587_67wnlw1lut4.woff2?t=1739882093489') format('woff2'),
 }
 @font-face {
   font-family: "zxfxyt";
@@ -47,6 +45,10 @@
 
 .icon-mail:before {
   content: "\e60d";
+}
+
+.icon-Osu:before {
+  content: "\e60a";
 }
 
 #maomao {position: fixed; bottom: 40px; right: -5px; width: 57px; height: 70px; background-image: url(/img/mao.svg); background-position: center; background-size: cover; background-repeat: no-repeat; transition: background .3s;}

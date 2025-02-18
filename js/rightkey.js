@@ -57,3 +57,5 @@
     var maomao = $('#maomao');
     maomao.css('bottom', randomNum(5, 80) + 'vh');
   }
+
+
