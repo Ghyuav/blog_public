@@ -641,40 +641,19 @@
 </div>
 <!-- 运行时间！ -->
 <div class="running-time">
-  <span id="RunTime_span">加载中...</span>
+  <span id="RunTime_span"></span>
   <script>
       var StartTime = new Date('2023/1/10 00:00:00'); // 此处改为你的建站时间
+      var NowTime = new Date(); // 获取现在的时间
 
-      function RunTime(){
-          var NowTime = new Date(); // 获取现在的时间
+      Time = (NowTime.getTime() - StartTime.getTime()) / 1000; // 计算已存活时间(单位秒)
 
-          Time = (NowTime.getTime() - StartTime.getTime()) / 1000; // 计算已存活时间(单位秒)
+      Day = Time / (24 * 60 * 60); // 已存活时间除以一天的秒数，可以知道活了多少天
+      
+      DayINT = Math.floor(Day);
 
-          AllSeconds = 365 * 24 * 60 * 60; // 一年全部有多少秒
-
-          Year = Time / AllSeconds; // 已存活时间除以一年的秒数，可以知道活了多少年
-          YearINT = Math.floor(Year); // 转为整数
-
-          Month = (Year - YearINT) * 12; // 整数与原来的数字的商乘12就可以知道活了多少月
-          MonthINT = Math.floor(Month); // 转为整数
-
-          Day = (Month - MonthINT) * ((7*31+5*30 )/12); //平均下大月小月天数，防止出现过大的偏差
-          DayINT = Math.floor(Day);
-
-          Hour = (Day - DayINT) * 24;
-          HourINT = Math.floor(Hour);
-
-          Minute = (Hour - HourINT) * 60;
-          MinuteINT = Math.floor(Minute);
-
-          Second = Math.floor((Minute - MinuteINT) * 60);
-
-
-          RunTime_span.innerHTML = "小站运行了 " + YearINT + "年 " + MonthINT + "月 " + DayINT + "天 " + HourINT + "时 " + MinuteINT + "分 " + Second + "秒";
-          // 将数据替换到Span上
-      };
-      setInterval("RunTime()", 1000); // 每秒重复运行，时刻更新数据
-      RunTime();
+      RunTime_span.innerHTML = "小站运行了" +DayINT + "天";
+      // 将数据替换到Span上
   </script>
 </div>
   

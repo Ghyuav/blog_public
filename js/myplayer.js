@@ -3,6 +3,7 @@ var x = document.getElementById("myaudio");
 
 // random music
 function random_music() {
+document.getElementById("random_music_button").src = "img/player/loading.gif"
 let music_data
 fetch('https://api.g-haoyu.top/randommusic')
 .then(response => {
@@ -23,12 +24,10 @@ fetch('https://api.g-haoyu.top/randommusic')
      document.getElementById('music_player_title').innerHTML=musicObject.name
      document.getElementById('music_player_artist').innerHTML=musicObject.artist
      x.src=musicObject.url
-     x.play();
-     if (document.startViewTransition) { 
-       document.startViewTransition(() => { document.getElementById("control").src = "img/player/pause.png"});
-     } else {
-       document.getElementById("control").src = "img/player/pause.png"
-     }
+     x.pause()
+     document.getElementById("control").src = "img/player/play.png"
+      document.getElementById("random_music_button").src = "img/player/refresh.png"
+
  })
 .catch(error => {
      // 处理请求过程中出现的错误
