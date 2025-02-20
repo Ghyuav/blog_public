@@ -6,6 +6,7 @@ function random_music() {
 document.getElementById("random_music_button").src = "img/player/loading.gif"
 let music_data
 fetch('https://api.g-haoyu.top/randommusic')
+// fetch('http://127.0.0.1:5000/randommusic')
 .then(response => {
      // 检查响应状态
      if (!response.ok) {
