@@ -1,0 +1,13 @@
+<link rel="linksheet" href="https://g-haoyu.top/css/myplayer.css">
+<div class="player_card" onclick="playPause()">
+    <audio id="myaudio" src=""></audio>
+    <img class="player_bg" style="filter: blur(60px);" id="music_player_img_bg" src="" />
+    <img class="player_cover" id="music_player_img" src=""  />
+    <div class="info">
+        <p class="title" id="music_player_title"></p>
+        <p class="artist" id="music_player_artist"></p>
+        <img onclick=random_music() src="https://g-haoyu.top/img/player/refresh.png" width="32" id="random_music_button" alt="refresh music" class="random_music_button"> 
+    </div>
+    <img id="control" class="control" src="https://g-haoyu.top/img/player/play.png" width="32" alt="pause/play">
+</div>
+<script src="https://g-haoyu.top/js/myplayer.js"></script>
