@@ -6,12 +6,11 @@
     display: flex;
     justify-content: flex-start;
     border-radius: 10px;
-    transition: filter 0.1s, transform 0.1s;
+    transition: filter 0.1s;
 }
 .player_card:hover {
     filter: brightness(95%);
-    transform: rotate(1deg);
-    transition: filter 0.1s, transform 0.1s;
+    transition: filter 0.1s;
     
 }
 .player_bg {
@@ -51,5 +50,12 @@
     transform: translate(0, 100%);
 }
 .random_music_button {
+    transform: rotate(0deg);
     transform: translate(0, 180%);
+    transition: transform 0.5s ease-in-out;
+}
+.random_music_button:hover {
+    transform: rotate(90deg);
+    transform: translate(0, 180%);
+    transition: transform 0.5s ease-in-out;
 }
