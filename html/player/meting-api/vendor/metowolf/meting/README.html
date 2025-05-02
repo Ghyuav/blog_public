@@ -1,0 +1,82 @@
+<p align="center">
+<img src="https://user-images.githubusercontent.com/2666735/30165599-36623bea-93a6-11e7-8956-1ddf99ce0e6f.png" alt="Meting">
+</p>
+
+<p align="center">
+<a href="https://i-meto.com"><img alt="Author" src="https://img.shields.io/badge/Author-METO-blue.svg?style=flat-square"/></a>
+<a href="https://packagist.org/packages/metowolf/Meting"><img alt="Version" src="https://img.shields.io/packagist/v/metowolf/Meting.svg?style=flat-square"/></a>
+<a href="https://packagist.org/packages/metowolf/meting/stats"><img alt="Downloads" src="https://img.shields.io/packagist/dt/metowolf/Meting.svg?style=flat-square"/></a>
+<a href="https://travis-ci.org/metowolf/Meting"><img alt="Travis" src="https://img.shields.io/travis/metowolf/Meting.svg?style=flat-square"></a>
+<img alt="License" src="https://img.shields.io/packagist/l/metowolf/Meting.svg?style=flat-square"/>
+</p>
+
+<blockquote>
+<p>:cake: Wow, such a powerful music API framework</p>
+</blockquote>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>A powerful music API framework to accelerate your development</p>
+<ul>
+<li><strong>Elegant</strong> - Easy to use, a standardized format for all music platforms.</li>
+<li><strong>Lightweight</strong> - A single-file library that’s less than 51KB.</li>
+<li><strong>Powerful</strong> - Support various music platforms, including Tencent, NetEase, Xiami, KuGou, Baidu, Kuwo and more.</li>
+<li><strong>Free</strong> - Under MIT license, need I say more?</li>
+</ul>
+<h2 id="Requirement"><a href="#Requirement" class="headerlink" title="Requirement"></a>Requirement</h2><p>PHP 5.4+ and BCMath, Curl, OpenSSL extension installed.</p>
+<h2 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h2><p>Require this package, with <a href="https://getcomposer.org/">Composer</a>, in the root directory of your project.</p>
+<pre><code class="bash">$ composer require metowolf/meting
+</code></pre>
+<p>Then you can import the class into your application:</p>
+<pre><code class="php">use Metowolf\Meting;
+
+$api = new Meting(&#39;netease&#39;);
+
+$data = $api-&gt;format(true)-&gt;search(&#39;Soldier&#39;);
+</code></pre>
+<blockquote>
+<p><strong>Note:</strong> Meting requires <a href="http://php.net/manual/en/book.bc.php">BCMath</a>, <a href="http://php.net/manual/en/book.curl.php">cURL</a> and <a href="http://php.net/manual/en/book.openssl.php">OpenSSL</a> extension in order to work.</p>
+</blockquote>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><pre><code class="php">require &#39;vendor/autoload.php&#39;;
+// require &#39;Meting.php&#39;;
+
+use Metowolf\Meting;
+
+// Initialize to netease API
+$api = new Meting(&#39;netease&#39;);
+
+// Use custom cookie (option)
+// $api-&gt;cookie(&#39;paste your cookie&#39;);
+
+// Get data
+$data = $api-&gt;format(true)-&gt;search(&#39;Soldier&#39;, [
+    &#39;page&#39; =&gt; 1,
+    &#39;limit&#39; =&gt; 50
+]);
+
+echo $data;
+// [{&quot;id&quot;:35847388,&quot;name&quot;:&quot;Hello&quot;,&quot;artist&quot;:[&quot;Adele&quot;],&quot;album&quot;:&quot;Hello&quot;,&quot;pic_id&quot;:&quot;1407374890649284&quot;,&quot;url_id&quot;:35847388,&quot;lyric_id&quot;:35847388,&quot;source&quot;:&quot;netease&quot;},{&quot;id&quot;:33211676,&quot;name&quot;:&quot;Hello&quot;,&quot;artist&quot;:[&quot;OMFG&quot;],&quot;album&quot;:&quot;Hello&quot;,...
+
+// Parse link
+$data = $api-&gt;format(true)-&gt;url(35847388);
+
+echo $data;
+// {&quot;url&quot;:&quot;http:\/\/...&quot;,&quot;size&quot;:4729252,&quot;br&quot;:128}
+</code></pre>
+<h2 id="More-usage"><a href="#More-usage" class="headerlink" title="More usage"></a>More usage</h2><ul>
+<li><a href="https://github.com/metowolf/Meting/wiki">docs</a></li>
+<li><a href="https://github.com/metowolf/Meting/wiki/special-for-netease">special for netease</a></li>
+</ul>
+<h2 id="Join-the-Discussion"><a href="#Join-the-Discussion" class="headerlink" title="Join the Discussion"></a>Join the Discussion</h2><ul>
+<li><a href="https://t.me/adplayer">Telegram Group</a></li>
+<li><a href="https://i-meto.com/">Official website</a></li>
+</ul>
+<h2 id="Related-Projects"><a href="#Related-Projects" class="headerlink" title="Related Projects"></a>Related Projects</h2><ul>
+<li><a href="https://github.com/MoePlayer/Hermit-X">MoePlayer&#x2F;Hermit-X</a></li>
+<li><a href="https://github.com/MoePlayer/APlayer-Typecho">MoePlayer&#x2F;APlayer-Typecho</a></li>
+<li><a href="https://github.com/mengkunsoft/MKOnlineMusicPlayer">mengkunsoft&#x2F;MKOnlineMusicPlayer</a></li>
+<li><a href="https://github.com/webjyh/WP-Player">webjyh&#x2F;WP-Player</a></li>
+<li><a href="https://github.com/yiyungent/Meting4Net">yiyungent&#x2F;Meting4Net</a></li>
+<li><a href="https://github.com/injahow/meting-api">injahow&#x2F;meting-api</a></li>
+</ul>
+<h2 id="Author"><a href="#Author" class="headerlink" title="Author"></a>Author</h2><p><strong>Meting</strong> © <a href="https://github.com/metowolf">metowolf</a>, Released under the <a href="./LICENSE">MIT</a> License.<br></p>
+<blockquote>
+<p>Blog <a href="https://i-meto.com/">@meto</a> · GitHub <a href="https://github.com/metowolf">@metowolf</a> · Twitter <a href="https://twitter.com/metowolf">@metowolf</a></p>
+</blockquote>
