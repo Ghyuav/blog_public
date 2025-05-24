@@ -16,4 +16,4 @@
 //     lrc: '/music/落.lrc'
 // }
 // ];
-var remoteMusic = "https://ik.imagekit.io/haoyu223/music/musiclist.json?updatedAt=1746179060415"
+var remoteMusic = "https://ik.imagekit.io/haoyu223/music/musiclist.json"
