@@ -2,10 +2,10 @@
   font-family: 'iconfont';  /* Project id 3865587 */
   src: url('//at.alicdn.com/t/c/font_3865587_67wnlw1lut4.woff2?t=1739882093489') format('woff2'),
 }
-@font-face {
+/* @font-face {
   font-family: "zxfxyt";
   src: url('https://ik.imagekit.io/haoyu223/zxfxyt.ttf') format('truetype');
-}
+} */
 
 .container {
   opacity: 0.9;
