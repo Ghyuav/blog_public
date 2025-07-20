@@ -17,10 +17,12 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="website">
-<meta property="og:title" content="标签 - 网站">
-<meta property="og:url" content="https://g-haoyu.top/tags/%E7%BD%91%E7%AB%99/index.html">
+<meta property="og:title" content="我的书架">
+<meta property="og:url" content="https://g-haoyu.top/bookshelf/index.html">
 <meta property="og:site_name" content="Haoyu的博客">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-07-20T00:30:42.000Z">
+<meta property="article:modified_time" content="2025-07-20T00:37:04.529Z">
 <meta property="article:author" content="Haoyu">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -28,7 +30,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>标签 - 网站 - Haoyu的博客</title>
+  <title>我的书架 - Haoyu的博客</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -90,7 +92,7 @@
   <header>
     
 
-<div class="header-inner" style="height: 80vh;">
+<div class="header-inner" style="height: 60vh;">
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -260,23 +262,19 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/img/bg.jpg') no-repeat center center; background-size: cover;">
+     style="background: url('https://ik.imagekit.io/haoyu223/bg.png?updatedAt=1740272939013') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="标签 - 网站"></span>
+            <span id="subtitle" data-typed-text="我的书架"></span>
           
         </div>
 
         
       </div>
 
-      
-        <div class="scroll-down-bar">
-          <i class="iconfont icon-arrowdown"></i>
-        </div>
       
     </div>
   </div>
@@ -296,36 +294,224 @@
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
+<head>
+    <title>Haoyu的博客</title>
+    <!-- 引入Fluid主题的样式和脚本 -->
+    <style>
+        /* 书架页面基础样式 */
+        .bookshelf-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .book-category {
+            margin-bottom: 40px;
+        }
+        .book-category h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid;
+            position: relative;
+        }
+        .book-category h2::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: -1px;
+            width: 60px;
+            height: 2px;
+            background-color: #42b983;
+        }
+        .books-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .book-card {
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+        .book-cover {
+            height: 280px;
+            overflow: hidden;
+            position: relative;
+        }
+        .book-cover img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+        .book-card:hover .book-cover img {
+            transform: scale(1.05);
+        }
+        .book-info {
+            padding: 15px;
+        }
+        .book-title {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            line-height: 1.3;
+            height: 46px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        .book-meta {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .book-progress {
+            font-size: 14px;
+            padding: 5px 0;
+            color: #42b983;
+            font-weight: 500;
+        }
+        .reading-status {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(66, 185, 131, 0.9);
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+            z-index: 10;
+        }
+        .reading-status.read {
+            background-color: rgba(66, 133, 244, 0.9);
+        }
+        .book-summary {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.5;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        .book-card:hover .book-summary {
+            max-height: 100px;
+        }
+        /* 响应式布局 */
+        @media (max-width: 768px) {
+            .books-grid {
+                grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            }
+            .book-cover {
+                height: 220px;
+            }
+            .book-title {
+                font-size: 16px;
+            }
+            .book-meta, .book-progress, .book-summary {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="bookshelf-container">
+        <header class="bookshelf-header">
+            <p class="bookshelf-desc"></p>
+        </header>
 
-<div class="list-group">
-  <p class="h4">共计 2 篇文章</p>
-  <hr>
-  
-  
-    
-      
-      <p class="h5">2024</p>
-    
-    <a href="/2024/02/05/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E6%AD%8C%E6%9B%B2%E4%BF%A1%E6%81%AF%E7%88%AC%E5%8F%96%EF%BC%8C%E5%8C%85%E6%8B%AC%E6%A0%87%E9%A2%98%E3%80%81%E6%AD%8C%E6%89%8B%E3%80%81%E5%B0%81%E9%9D%A2%E7%AD%89/" class="list-group-item list-group-item-action">
-      <time>02-05</time>
-      <div class="list-group-item-title">网易云音乐歌曲信息爬取，包括标题、歌手、封面等</div>
-    </a>
-  
-    
-      
-      <p class="h5">2023</p>
-    
-    <a href="/2023/01/10/%E7%BD%91%E7%AB%99%E9%87%8D%E5%86%99%E8%AE%A1%E5%88%92/" class="list-group-item list-group-item-action">
-      <time>01-10</time>
-      <div class="list-group-item-title">网站重写计划 - 新网站上线啦</div>
-    </a>
-  
-</div>
+<!-- 正在阅读 -->
+<section class="book-category">
+    <h2><i class="fa fa-bookmark-o"></i> 正在阅读</h2>
+    <div class="books-grid">
+        
+            
+            <div class="book-card">
+                <div class="book-cover">
+                    <span class="reading-status">阅读中</span>
+                    <img src="https://file.dushupai.com/2024/06/20/2a12e69bc921a7c0.jpg" srcset="/img/loading.gif" lazyload alt="额尔古纳河右岸封面" />
+                </div>
+                <div class="book-info">
+                    <h3 class="book-title">额尔古纳河右岸</h3>
+                    <div class="book-meta">迟子建 | 人民文学出版社</div>
+                    <div class="book-progress">进度：5%</div>
+                    <div class="book-summary">
+                        《额尔古纳河右岸》是一部描写鄂温克人生存现状及百年沧桑的长篇小说，展示了弱小民族在严酷的自然环境和现代文明的挤压下的顽强生命力和不屈不挠的民族精神，以及丰富多彩的民族性格和风情。
+                    </div>
+                </div>
+            </div>
+            
+        
+    </div>
+</section>
 
+<!-- 已读完 -->
+<section class="book-category">
+    <h2><i class="fa fa-check-circle-o"></i> 已读完</h2>
+    <div class="books-grid">
+        
+            
+            <div class="book-card">
+                <div class="book-cover">
+                    <span class="reading-status read">已读完</span>
+                    <img src="https://file.dushupai.com/2024/06/05/7a6c19aeab935aaf.jpg" srcset="/img/loading.gif" lazyload alt="人生海海封面" />
+                </div>
+                <div class="book-info">
+                    <h3 class="book-title">人生海海</h3>
+                    <div class="book-meta">麦家 | 北京十月文艺出版社</div>
+                    <div class="book-progress">完成时间：2025-07</div>
+                    <div class="book-summary">
+                        他是全村最出奇古怪的人，古怪的名目要扳着指头一个一个数：第一，他当过国民党军队的上校，是革命群众要斗争的对象。 但大家一边斗争他，一边又巴结讨好他，家里出什么事都去找他拿主意。 第二，都说他是太监，可我们小孩子经常偷看他那个地方，好像还是满当当的，有模有样的。 第三， 他向来不出工，不干农活，天天空在家里看报纸，嗑瓜子，可日子过得比谁家都舒坦。 还像养孩子一样养着一对猫，宝贝得不得了，简直神经病！
+                    </div>
+                </div>
+            </div>
+            
+            <div class="book-card">
+                <div class="book-cover">
+                    <span class="reading-status read">已读完</span>
+                    <img src="https://qweree.cn/wp-content/uploads/2025/05/wa-tuya.jpg" srcset="/img/loading.gif" lazyload alt="蛙封面" />
+                </div>
+                <div class="book-info">
+                    <h3 class="book-title">蛙</h3>
+                    <div class="book-meta">莫言 | 浙江文学出版社</div>
+                    <div class="book-progress">完成时间：2025-05</div>
+                    <div class="book-summary">
+                        《蛙》以新中国近60年波澜起伏的农村生育史为背景，通过讲述从事妇产科工作50多年的乡村女医生姑姑的人生经历，在形象描述国家为了控制人口剧烈增长、实施计划生育国策所走过的艰巨而复杂的历史过程的同时，成功塑造了一个生动鲜明、感人至深的农村妇科医生形象；并结合计划生育过程中的复杂现象，剖析了以叙述人蝌蚪为代表的知识分子卑微、尴尬、纠结、矛盾的精神世界
+                    </div>
+                </div>
+            </div>
+            
+            <div class="book-card">
+                <div class="book-cover">
+                    <span class="reading-status read">已读完</span>
+                    <img src="https://file.dushupai.com/2024/06/06/3824afab1f303bba.jpg" srcset="/img/loading.gif" lazyload alt="肖申克的救赎封面" />
+                </div>
+                <div class="book-info">
+                    <h3 class="book-title">肖申克的救赎</h3>
+                    <div class="book-meta">斯蒂芬·金 | 人民文学出版社</div>
+                    <div class="book-progress">完成时间：2024-11</div>
+                    <div class="book-summary">
+                        惊悚题材永远的王者
+                    </div>
+                </div>
+            </div>
+            
+        
+    </div>
+</section>
 
-
-
-
+        <footer class="bookshelf-footer">
+            <p>最后更新：2025-07-20</p>
+        </footer>
+    </div>
+</body>
+</html>
               </div>
             </div>
           </div>
