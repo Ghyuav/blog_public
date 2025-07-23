@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'iconfont';  /* Project id 3865587 */
-  src: url('//at.alicdn.com/t/c/font_3865587_67wnlw1lut4.woff2?t=1739882093489') format('woff2'),
+  src: url('//at.alicdn.com/t/c/font_3865587_x69u1ayw3wq.woff2?t=1753278746866') format('woff2'),
 }
 /* @font-face {
   font-family: "zxfxyt";
@@ -49,6 +49,10 @@
 
 .icon-Osu:before {
   content: "\e60a";
+}
+
+.icon-notice:before {
+  content: "\e719";
 }
 
 #maomao {position: fixed; bottom: 40px; right: -5px; width: 57px; height: 70px; background-image: url(/img/mao.svg); background-position: center; background-size: cover; background-repeat: no-repeat; transition: background .3s;}
