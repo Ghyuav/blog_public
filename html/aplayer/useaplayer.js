@@ -5,6 +5,111 @@ const ap = new APlayer({
     lrcType: 3,
     audio: [
     {
+        "name": "Animals (我们)",
+        "artist": "迷心",
+        "url": "https://ik.imagekit.io/haoyu223/music/2143524958/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/2143524958/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/2143524958/lrc.txt"
+    },
+    {
+        "name": "Remember Where You Are",
+        "artist": "Jessie Ware",
+        "url": "https://ik.imagekit.io/haoyu223/music/1458199772/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/1458199772/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/1458199772/lrc.txt"
+    },
+    {
+        "name": "That's All",
+        "artist": "Barney Kessel",
+        "url": "https://ik.imagekit.io/haoyu223/music/1118739/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/1118739/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/1118739/lrc.txt"
+    },
+    {
+        "name": "Entitled",
+        "artist": "Leighton Meester",
+        "url": "https://ik.imagekit.io/haoyu223/music/29572887/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/29572887/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/29572887/lrc.txt"
+    },
+    {
+        "name": "Lo-Fi",
+        "artist": "Tom Cardy",
+        "url": "https://ik.imagekit.io/haoyu223/music/2632426028/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/2632426028/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/2632426028/lrc.txt"
+    },
+    {
+        "name": "Clear Memories",
+        "artist": "大久保博",
+        "url": "https://ik.imagekit.io/haoyu223/music/34002317/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/34002317/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/34002317/lrc.txt"
+    },
+    {
+        "name": "Düsseldorf",
+        "artist": "Teleman",
+        "url": "https://ik.imagekit.io/haoyu223/music/407126531/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/407126531/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/407126531/lrc.txt"
+    },
+    {
+        "name": "VOID",
+        "artist": "ichika Nito",
+        "url": "https://ik.imagekit.io/haoyu223/music/2645860508/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/2645860508/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/2645860508/lrc.txt"
+    },
+    {
+        "name": "villain",
+        "artist": "mj apanay",
+        "url": "https://ik.imagekit.io/haoyu223/music/1976636697/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/1976636697/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/1976636697/lrc.txt"
+    },
+    {
+        "name": "The light",
+        "artist": "Raja",
+        "url": "https://ik.imagekit.io/haoyu223/music/409060871/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/409060871/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/409060871/lrc.txt"
+    },
+    {
+        "name": "A Tear in Space (Airlock)",
+        "artist": "Glass Animals",
+        "url": "https://ik.imagekit.io/haoyu223/music/2163531651/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/2163531651/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/2163531651/lrc.txt"
+    },
+    {
+        "name": "Soft Universe",
+        "artist": "AURORA",
+        "url": "https://ik.imagekit.io/haoyu223/music/1819587701/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/1819587701/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/1819587701/lrc.txt"
+    },
+    {
+        "name": "Smile",
+        "artist": "Wolf Alice",
+        "url": "https://ik.imagekit.io/haoyu223/music/1848244627/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/1848244627/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/1848244627/lrc.txt"
+    },
+    {
+        "name": "Sony Vegas 9.x Keygen Music",
+        "artist": "Joey Mizers/Kenet/Rez/Digital Insanity",
+        "url": "https://ik.imagekit.io/haoyu223/music/433103958/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/433103958/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/433103958/lrc.txt"
+    },
+    {
+        "name": "Stayin' Alive (From \"Saturday Night Fever\" Soundtrack)",
+        "artist": "Bee Gees",
+        "url": "https://ik.imagekit.io/haoyu223/music/3952752/music.mp3",
+        "cover": "https://ik.imagekit.io/haoyu223/music/3952752/pic.jpg",
+        "lrc": "https://ik.imagekit.io/haoyu223/music/3952752/lrc.txt"
+    },
+    {
         "name": "fantasmas",
         "artist": "Humbe",
         "url": "https://ik.imagekit.io/haoyu223/music/2098665324/music.mp3",

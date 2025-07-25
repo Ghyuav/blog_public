@@ -435,8 +435,15 @@
               // alert('ok');
               }
               var p_url=document.getElementById("url");
+              if (params.get("warn")=='1'){
+
+              p_url.innerHTML="该网址被标记为危险，不建议访问(不会自动跳转)："+params.get("url");
+
+              } else{
+
               p_url.innerHTML="如果没有跳转，请复制链接进行跳转："+params.get("url");
               setTimeout(jumurl,5000);
+              }
             </script>
 
 

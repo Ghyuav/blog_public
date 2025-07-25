@@ -34,3 +34,4 @@ function update() {
     });
 }
 
+window.onload = update;
