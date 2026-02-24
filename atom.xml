@@ -6,7 +6,7 @@
   <link href="https://g-haoyu.top/atom.xml" rel="self"/>
   
   <link href="https://g-haoyu.top/"/>
-  <updated>2025-07-18T13:32:48.930Z</updated>
+  <updated>2026-02-24T14:30:25.045Z</updated>
   <id>https://g-haoyu.top/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>尝试做了个我的世界模组</title>
+    <link href="https://g-haoyu.top/2026/02/24/%E5%B0%9D%E8%AF%95%E5%81%9A%E4%BA%86%E4%B8%AA%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84/"/>
+    <id>https://g-haoyu.top/2026/02/24/%E5%B0%9D%E8%AF%95%E5%81%9A%E4%BA%86%E4%B8%AA%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84/</id>
+    <published>2026-02-24T13:46:10.000Z</published>
+    <updated>2026-02-24T14:30:25.045Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="尝试做了个我的世界模组"><a href="#尝试做了个我的世界模组" class="headerlink" title="尝试做了个我的世界模组"></a>尝试做了个我的世界模组</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我根据同学提供的小巧思，制作了我第一个模组<br>版本：1.20.1-forge</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="方块"><a href="#方块" class="headerlink" title="方块"></a>方块</h3><h4 id="黄铁矿"><a href="#黄铁矿" class="headerlink" title="黄铁矿"></a>黄铁矿<img src="/img/posts/尝试做了个我的世界模组/pyriteore.png"></h4><p>在高度1至63格生成，每区块平均11个<br>用稿子破坏后掉落1个生铁和1~3个硫</p><h3 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h3><h4 id="硫"><a href="#硫" class="headerlink" title="硫"></a>硫<img src="/img/posts/尝试做了个我的世界模组/sulfur_.png"></h4><p>使用后获得<a href="#%E7%99%8C%E7%97%87">癌症</a>效果并达成进度 <strong>你吃了一块硫？</strong> （描述：自学中医第一人）</p><h4 id="硫药水"><a href="#硫药水" class="headerlink" title="硫药水"></a>硫药水<img src="/img/posts/尝试做了个我的世界模组/sulfur_potion.png"></h4><p>通过 粗制药水 和 硫 酿造<br>使用后获得<a href="#%E7%99%8C%E7%97%87">癌症</a>效果并在玩家后方一格处放置火（放屁）</p><h4 id="打火机"><a href="#打火机" class="headerlink" title="打火机"></a>打火机<img src="/img/posts/尝试做了个我的世界模组/da_huo_ji.png"></h4><p>通过 <a href="#%E7%A1%AB">硫</a> 和 打火石 制作<br>使用后在玩家头部爆炸，150刻后劈下闪电，再50刻后踢出玩家：号封一个月，钱扣700多<br>达成进度 <strong>没活了可以咬打火机</strong> （描述：打火机也没了，号封一个月，钱扣七百多）</p><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><h4 id="癌症"><a href="#癌症" class="headerlink" title="癌症"></a>癌症<img src="/img/posts/尝试做了个我的世界模组/cancer.png"></h4><p>使用 <a href="#%E7%A1%AB">硫</a> 后获得<br>此效果结束后（潜伏期结束），将血量上限减半，获得饥饿效果，1000刻后受到凋零伤害致死</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><a href="/file/hmod-0.0.1-forge-1.20.1.jar" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">    <img src="/img/posts/尝试做了个我的世界模组/jar.png" style="vertical-align: middle; max-height: 20px; width: auto;">    hmod-0.0.1-forge-1.20.1.jar</a>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;尝试做了个我的世界模组&quot;&gt;&lt;a href=&quot;#尝试做了个我的世界模组&quot; class=&quot;headerlink&quot; title=&quot;尝试做了个我的世界模组&quot;&gt;&lt;/a&gt;尝试做了个我的世界模组&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;head</summary>
+      
+    
+    
+    
+    
+    <category term="mc" scheme="https://g-haoyu.top/tags/mc/"/>
+    
+  </entry>
   
   <entry>
     <title>暮春之景</title>
@@ -467,30 +489,6 @@
     
     
     <category term="git" scheme="https://g-haoyu.top/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Winodws UEFI引导修复</title>
-    <link href="https://g-haoyu.top/2023/01/13/WinodwsUEFI%E5%BC%95%E5%AF%BC%E4%BF%AE%E5%A4%8D/"/>
-    <id>https://g-haoyu.top/2023/01/13/WinodwsUEFI%E5%BC%95%E5%AF%BC%E4%BF%AE%E5%A4%8D/</id>
-    <published>2023-01-13T01:52:22.000Z</published>
-    <updated>2023-07-28T11:09:07.524Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="Winodws-UEFI引导修复"><a href="#Winodws-UEFI引导修复" class="headerlink" title="Winodws UEFI引导修复"></a>Winodws UEFI引导修复</h2><p>这两天闲着没事，在实体机上装Ubuntu双系统，用了一个残次品U盘当启动盘，刚开始还好好的呢，突然就挂了，grub把Windows Boot Manager覆盖了，Ubuntu还没装完，一重启，好家伙，哪个系统都进不去。在网上搜了好长时间，整理出了这个方法。（懒得重装系统，还有，<strong>不要用残次品U盘</strong>！）</p><h3 id="修复方法"><a href="#修复方法" class="headerlink" title="修复方法"></a>修复方法</h3><div class="note note-danger">            <p>注意，本操作可以在PE系统中进行</p>          </div><p>1.准备一个U盘（大于8G），并制作启动盘。<br>2.U盘启动时多次强制重启打断启动，过几次会自动进入到系统修复界面<br>3.依次点击 疑难解答-高级选项-命令提示符<br>输入以下命令</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cmd">diskpart<br>list <span class="hljs-built_in">vol</span><br></code></pre></td></tr></table></figure><p>会输出</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cmd">DISKPART&gt; list <span class="hljs-built_in">vol</span><br><br>  卷 ###      LTR  标签         <span class="hljs-built_in">FS</span>     类型        大小     状态       信息<br>  ----------  ---  -----------  -----  ----------  -------  ---------  --------<br>  卷     <span class="hljs-number">0</span>     D                NTFS   磁盘分区         <span class="hljs-number">931</span> GB  正常<br>  卷     <span class="hljs-number">1</span>     E                NTFS   磁盘分区         <span class="hljs-number">111</span> GB  正常<br>  卷     <span class="hljs-number">2</span>                      FAT32  磁盘分区         <span class="hljs-number">512</span> MB  正常         系统<br>  卷     <span class="hljs-number">3</span>     C   新加卷          NTFS   磁盘分区         <span class="hljs-number">476</span> GB  正常         启动<br>  卷     <span class="hljs-number">4</span>     G   wepe         exFAT  可移动           <span class="hljs-number">28</span> GB  正常<br>  卷     <span class="hljs-number">5</span>     F   新加卷          NTFS   磁盘分区        <span class="hljs-number">1863</span> GB  正常<br></code></pre></td></tr></table></figure><p>可见，”卷 2”是EFI分区（EFI分区一般大小只有几百MB，文件系统一般为FAT32且在系统盘上）</p><p>接下来输入以下命令</p><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs cmd">select volume x (x是刚才的EFI分区卷号，例如：<span class="hljs-number">2</span>)<br>assign letter=J (z是给EFI分区分配一个盘符，要从这里创建启动文件)<br><span class="hljs-keyword">exit</span> (退出DISKPART)<br><span class="hljs-built_in">cd</span> /d J:\EFI\Microsoft\Boot\ (J是刚才给EFI分区分配的盘符)<br>bootrec/fixboot<br><span class="hljs-built_in">ren</span> BCD BCD.bak<br>bcdboot C:\Windows /l zh-cn /s J: /f ALL (C:是Windows所在的盘符，J:是刚才给EFI分区分配的盘符)<br>bootrec /rebuildbcd<br></code></pre></td></tr></table></figure><p><strong>“&#x2F;l”是小写“L”！</strong><br>命令执行完后重启，拔出启动盘，你会发现Winodws UEFI引导修复了，成功进入系统。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;Winodws-UEFI引导修复&quot;&gt;&lt;a href=&quot;#Winodws-UEFI引导修复&quot; class=&quot;headerlink&quot; title=&quot;Winodws UEFI引导修复&quot;&gt;&lt;/a&gt;Winodws UEFI引导修复&lt;/h2&gt;&lt;p&gt;这两天闲着没事，在实体机上装</summary>
-      
-    
-    
-    
-    
-    <category term="Ubuntu" scheme="https://g-haoyu.top/tags/Ubuntu/"/>
-    
-    <category term="Windows" scheme="https://g-haoyu.top/tags/Windows/"/>
     
   </entry>
   
