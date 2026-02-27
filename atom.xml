@@ -6,7 +6,7 @@
   <link href="https://g-haoyu.top/atom.xml" rel="self"/>
   
   <link href="https://g-haoyu.top/"/>
-  <updated>2026-02-24T14:30:25.045Z</updated>
+  <updated>2026-02-27T10:04:10.569Z</updated>
   <id>https://g-haoyu.top/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://g-haoyu.top/2026/02/24/%E5%B0%9D%E8%AF%95%E5%81%9A%E4%BA%86%E4%B8%AA%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84/"/>
     <id>https://g-haoyu.top/2026/02/24/%E5%B0%9D%E8%AF%95%E5%81%9A%E4%BA%86%E4%B8%AA%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84/</id>
     <published>2026-02-24T13:46:10.000Z</published>
-    <updated>2026-02-24T14:30:25.045Z</updated>
+    <updated>2026-02-27T10:04:10.569Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="尝试做了个我的世界模组"><a href="#尝试做了个我的世界模组" class="headerlink" title="尝试做了个我的世界模组"></a>尝试做了个我的世界模组</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我根据同学提供的小巧思，制作了我第一个模组<br>版本：1.20.1-forge</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="方块"><a href="#方块" class="headerlink" title="方块"></a>方块</h3><h4 id="黄铁矿"><a href="#黄铁矿" class="headerlink" title="黄铁矿"></a>黄铁矿<img src="/img/posts/尝试做了个我的世界模组/pyriteore.png"></h4><p>在高度1至63格生成，每区块平均11个<br>用稿子破坏后掉落1个生铁和1~3个硫</p><h3 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h3><h4 id="硫"><a href="#硫" class="headerlink" title="硫"></a>硫<img src="/img/posts/尝试做了个我的世界模组/sulfur_.png"></h4><p>使用后获得<a href="#%E7%99%8C%E7%97%87">癌症</a>效果并达成进度 <strong>你吃了一块硫？</strong> （描述：自学中医第一人）</p><h4 id="硫药水"><a href="#硫药水" class="headerlink" title="硫药水"></a>硫药水<img src="/img/posts/尝试做了个我的世界模组/sulfur_potion.png"></h4><p>通过 粗制药水 和 硫 酿造<br>使用后获得<a href="#%E7%99%8C%E7%97%87">癌症</a>效果并在玩家后方一格处放置火（放屁）</p><h4 id="打火机"><a href="#打火机" class="headerlink" title="打火机"></a>打火机<img src="/img/posts/尝试做了个我的世界模组/da_huo_ji.png"></h4><p>通过 <a href="#%E7%A1%AB">硫</a> 和 打火石 制作<br>使用后在玩家头部爆炸，150刻后劈下闪电，再50刻后踢出玩家：号封一个月，钱扣700多<br>达成进度 <strong>没活了可以咬打火机</strong> （描述：打火机也没了，号封一个月，钱扣七百多）</p><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><h4 id="癌症"><a href="#癌症" class="headerlink" title="癌症"></a>癌症<img src="/img/posts/尝试做了个我的世界模组/cancer.png"></h4><p>使用 <a href="#%E7%A1%AB">硫</a> 后获得<br>此效果结束后（潜伏期结束），将血量上限减半，获得饥饿效果，1000刻后受到凋零伤害致死</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><a href="/file/hmod-0.0.1-forge-1.20.1.jar" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">    <img src="/img/posts/尝试做了个我的世界模组/jar.png" style="vertical-align: middle; max-height: 20px; width: auto;">    hmod-0.0.1-forge-1.20.1.jar</a>]]></content>
+    <content type="html"><![CDATA[<h1 id="尝试做了个我的世界模组"><a href="#尝试做了个我的世界模组" class="headerlink" title="尝试做了个我的世界模组"></a>尝试做了个我的世界模组</h1><p><img src="/img/posts/%E5%B0%9D%E8%AF%95%E5%81%9A%E4%BA%86%E4%B8%AA%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E6%A8%A1%E7%BB%84/logo.png" alt="logo"></p><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>我根据同学提供的小巧思，尝试做了个我的世界模组<br>适用于 1.20.1-forge</p><h2 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h2><h3 id="方块"><a href="#方块" class="headerlink" title="方块"></a>方块</h3><h4 id="黄铁矿"><a href="#黄铁矿" class="headerlink" title="黄铁矿"></a>黄铁矿<img src="/img/posts/尝试做了个我的世界模组/pyriteore.png"></h4><p>在高度1至63格生成，每区块平均11个<br>用稿子破坏后掉落1个生铁和1~3个<img src="#%E7%A1%AB" alt="硫"></p><h3 id="物品"><a href="#物品" class="headerlink" title="物品"></a>物品</h3><h4 id="硫"><a href="#硫" class="headerlink" title="硫"></a>硫<img src="/img/posts/尝试做了个我的世界模组/sulfur_.png"></h4><p>使用后获得<a href="#%E7%99%8C%E7%97%87">癌症</a>效果并达成进度 <strong>你吃了一块硫？</strong> （描述：自学中医第一人）</p><h4 id="硫药水"><a href="#硫药水" class="headerlink" title="硫药水"></a>硫药水<img src="/img/posts/尝试做了个我的世界模组/sulfur_potion.png"></h4><p>通过 粗制药水 和 硫 酿造<br>使用后放屁（在玩家后方一格处放置火）</p><h4 id="打火机"><a href="#打火机" class="headerlink" title="打火机"></a>打火机<img src="/img/posts/尝试做了个我的世界模组/da_huo_ji.png"></h4><p>通过 <a href="#%E7%A1%AB">硫</a> 和 打火石 制作<br>使用后在玩家头部爆炸，150刻后劈下闪电，再50刻后踢出玩家：号封一个月，钱扣700多<br>达成进度 <strong>没活了可以咬打火机</strong> （描述：打火机也没了，号封一个月，钱扣七百多）</p><h3 id="效果"><a href="#效果" class="headerlink" title="效果"></a>效果</h3><h4 id="癌症"><a href="#癌症" class="headerlink" title="癌症"></a>癌症<img src="/img/posts/尝试做了个我的世界模组/cancer.png"></h4><p>使用 <a href="#%E7%A1%AB">硫</a> 后获得<br>效果开始时血量上限减半，获得饥饿效果。效果结束后，90%受到凋零伤害致死，10%挺过癌症</p><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><a href="/file/hmod-0.0.3-forge-1.20.1.jar" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">    <img src="/img/posts/尝试做了个我的世界模组/jar.png" style="vertical-align: middle; max-height: 20px; width: auto;">    hmod-0.0.3-forge-1.20.1.jar</a>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;尝试做了个我的世界模组&quot;&gt;&lt;a href=&quot;#尝试做了个我的世界模组&quot; class=&quot;headerlink&quot; title=&quot;尝试做了个我的世界模组&quot;&gt;&lt;/a&gt;尝试做了个我的世界模组&lt;/h1&gt;&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;head</summary>
+    <summary type="html">&lt;h1 id=&quot;尝试做了个我的世界模组&quot;&gt;&lt;a href=&quot;#尝试做了个我的世界模组&quot; class=&quot;headerlink&quot; title=&quot;尝试做了个我的世界模组&quot;&gt;&lt;/a&gt;尝试做了个我的世界模组&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/img/posts/%E5%B0%9D%E8%</summary>
       
     
     
