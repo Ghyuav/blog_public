@@ -127,7 +127,7 @@ body {
 }
 
 body #web_bg {
-  filter: blur(63px);
+  filter: blur(630px);
   opacity: 0.6;
   background-repeat: no-repeat;
   background-size: cover;

@@ -16,4 +16,6 @@
 //     lrc: '/music/落.lrc'
 // }
 // ];
-var remoteMusic = "https://ik.imagekit.io/haoyu223/music/musiclist.json"
+
+
+var remoteMusic = "https://ik.imagekit.io/haoyu223/music/musiclist.json?updatedAt="+Date.now()
